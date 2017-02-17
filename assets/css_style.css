@@ -1,0 +1,148 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: cyan;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+ul li a, figcaption a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header > img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+  font-family: 'Aref Ruqaa', serif;
+}
+
+
+select {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  background-image: url(stars.png);
+  vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px, 30px;
+}
+
+input:last-child {
+  background-color: gold;
+}
+
+input[type="submit"]:hover {
+  -webkit-filter: brightness(90%);
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+header + img {
+  length: 100px;
+  width: 100px;
+}
+
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+ol li:nth-of-type(2n) {
+  background-color: whitesmoke;
+  margin: 10px 0;
+}
+
+ol li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
+nav ul li {
+  display: inline-block;
+  background: yellow;
+  padding: 20px;
+  margin: 20px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li a {
+  padding: 10px;
+  display: block;
+}
+
+section {
+  width: 350px;
+}
+
+
+aside {
+  display: inline-block;
+  margin-right: 15px;
+  width: 180px;
+}
+
+aside ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+select {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  width: 350px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 175px;
+}
